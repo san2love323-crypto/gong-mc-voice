@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "architect_voice",
+  "version": "${version}",
+  "name": "Architect Voice",
+  "description": "AI 관리자 아키텍트가 음성채팅으로 듣고 말하게 하는 브릿지",
+  "authors": ["yujun"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "server": ["com.gong.architect.ArchitectVoice"],
+    "voicechat": ["com.gong.architect.ArchitectVoice"]
+  },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "1.21.1", "fabric-api": "*", "voicechat": "*" }
+}
